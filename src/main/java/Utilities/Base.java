@@ -1,6 +1,7 @@
 package Utilities;
 
 import Pages.HomePage;
+import Pages.WatchADemoPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -13,4 +14,5 @@ public class Base {
 
     //Pages
     public static HomePage homePage;
+    public static WatchADemoPage watchADemoPage;
 }

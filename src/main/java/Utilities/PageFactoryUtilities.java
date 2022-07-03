@@ -7,5 +7,6 @@ public class PageFactoryUtilities extends Base{
 
     public static void buildPageFactory() {
         homePage = PageFactory.initElements(driver, HomePage.class);
+        watchADemoPage = PageFactory.initElements(driver, WatchADemoPage.class);
     }
 }

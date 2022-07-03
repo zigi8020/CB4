@@ -5,7 +5,11 @@ import org.openqa.selenium.support.FindBy;
 
 public class WatchADemoPage extends BasePage {
 
-    @FindBy (id = "form-field-firstname")
+    @FindBy (name = "form_fields[firstname]")
     WebElement firstNameField;
+
+    public void insertName(String name) {
+        type(firstNameField, name);
+    }
     
 }
